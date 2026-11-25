@@ -37,34 +37,46 @@ The analysis covers:
 
 ### 1. System Definition & Architecture
 
-Establish the system architecture, scope, components and initial assumptions.
+Define the system, its architecture, scope and initial assumptions.
+
+[View System Definition & Architecture](docs/system-definition.md)
 
 ### 2. Data Flow & Trust Boundaries
 
-This phase examines how data moves across the AI assistant's components and identifies the trust boundaries between users, internal components and external services.
+Examine how data moves across system components and identify trust boundaries.
 
 [View Data Flow Analysis](docs/data-flow-analysis.md)
 
 ### 3. Asset & Attack Surface Analysis
 
-Identify critical assets, entry points, attack surfaces and potential exposure areas.
+Identify critical assets, entry points and potential attack surfaces.
+
+[View Asset & Attack Surface Analysis](docs/asset-attack-surface-analysis.md)
 
 ### 4. Threat Identification
 
-Identify AI-specific and conventional threats and develop relevant attack scenarios.
+Identify AI-specific and conventional security threats and develop attack scenarios.
+
+[View Threat Identification](docs/threat-identification.md)
 
 ### 5. Risk Assessment & Prioritization
 
 Evaluate identified threats based on likelihood, impact and risk severity.
 
+[View Risk Assessment](docs/risk-assessment.md)
+
 ### 6. Security Controls & Mitigation
 
-Develop security recommendations and mitigation strategies for prioritized risks.
+Define security controls and mitigation strategies for prioritized risks.
+
+[View Security Controls & Mitigation](docs/security-controls-mitigation.md)
 
 ### 7. Final Security Assessment
 
-Consolidate assessment findings, risk prioritization and security recommendations.
+Consolidate findings, prioritized risks and security recommendations into a final assessment.
+
+[View Final Security Assessment](docs/final-assessment.md)
 
 ---
 
-<sub>This assessment uses a fictional banking scenario and synthetic system data for research and portfolio purposes.</sub>
+*This assessment uses a fictional banking scenario and synthetic system data for research and portfolio purposes.*
