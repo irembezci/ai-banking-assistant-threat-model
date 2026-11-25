@@ -51,7 +51,7 @@ Examine how data moves across system components and identify trust boundaries.
 
 Identify critical assets, entry points and potential attack surfaces.
 
-[View Asset & Attack Surface Analysis](docs/asset-attack-surface-analysis.md)
+[View Asset & Attack Surface Analysis](docs/asset-identification.md)
 
 ### 4. Threat Identification
 
