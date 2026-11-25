@@ -1,4 +1,4 @@
-# AI Banking Assistant — Security Assessment
+# Security Assessment of a RAG-Based AI Banking Assistant
 
 ## Project Overview
 
