@@ -1,27 +1,70 @@
 # AI Banking Assistant — Security Assessment
 
-## 1. System Definition
+## Project Overview
 
-**Scenario:** Meridian Bank plans to deploy an AI-powered assistant accessible through its web application to provide customers with information about banking products, account procedures, card services and frequently asked questions.
+This project examines the security of an AI-powered banking assistant designed to provide customers with information about banking products, card services, account procedures and frequently asked questions.
 
-**System Architecture:** The assistant uses a Retrieval-Augmented Generation (RAG) architecture, retrieving relevant information from a bank-approved knowledge base to generate responses through a third-party hosted LLM.
+The system uses a Retrieval-Augmented Generation (RAG) architecture, combining a bank-approved knowledge base with a third-party hosted Large Language Model (LLM) to generate responses.
 
-**Assessment Scope:** This assessment focuses on the security of the AI assistant's architecture, data flows, knowledge retrieval mechanisms, interfaces and supporting components.
+The assessment aims to analyze the system's architecture, identify potential attack surfaces and threats, evaluate associated risks and propose security recommendations.
 
-**Initial Scope Limitations:**
-- Information-only functionality
-- No financial transactions or banking actions
-- No direct access to core banking systems
-- No customer document uploads
-- Third-party LLM integration
-- Bank-approved knowledge base
+## Target System
 
-**Assessment Objectives:**
-- Identify assets and attack surfaces
-- Analyze trust boundaries and data flows
-- Identify AI-specific and conventional security threats
-- Assess and prioritize security risks
-- Recommend security controls and mitigations
+| Component | Description |
+|---|---|
+| **Application** | AI Banking Assistant |
+| **Business Context** | Banking and Financial Services |
+| **Architecture** | Retrieval-Augmented Generation (RAG) |
+| **Knowledge Source** | Bank-approved documentation |
+| **LLM Provider** | Third-party hosted LLM |
+| **Application Scope** | Information-only assistant |
 
-*This is a simulated security assessment based on assumed system architecture and design decisions. It does not represent an assessment of a real banking system.*
+The assistant is designed to provide general banking information. It does not execute financial transactions, access core banking systems directly or accept customer document uploads.
 
+## Assessment Scope
+
+The assessment focuses on the security of the AI application's architecture, data flows, retrieval mechanisms, interfaces and supporting components.
+
+The analysis covers:
+
+- System architecture and data flows
+- Assets and attack surfaces
+- AI-specific and conventional security threats
+- Threat scenarios and risk prioritization
+- Security controls and mitigation recommendations
+
+## Assessment Process
+
+### 1. System Definition & Architecture
+
+Establish the system architecture, scope, components and initial assumptions.
+
+### 2. Data Flow & Trust Boundaries
+
+This phase examines how data moves across the AI assistant's components and identifies the trust boundaries between users, internal components and external services.
+
+[View Data Flow Analysis](docs/data-flow-analysis.md)
+
+### 3. Asset & Attack Surface Analysis
+
+Identify critical assets, entry points, attack surfaces and potential exposure areas.
+
+### 4. Threat Identification
+
+Identify AI-specific and conventional threats and develop relevant attack scenarios.
+
+### 5. Risk Assessment & Prioritization
+
+Evaluate identified threats based on likelihood, impact and risk severity.
+
+### 6. Security Controls & Mitigation
+
+Develop security recommendations and mitigation strategies for prioritized risks.
+
+### 7. Final Security Assessment
+
+Consolidate assessment findings, risk prioritization and security recommendations.
+
+---
+
+<sub>This assessment uses a fictional banking scenario and synthetic system data for research and portfolio purposes.</sub>
